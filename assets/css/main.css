@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.add-btn {
+  border-radius: 21px;
+  background: #28A745;
+  padding: 10px 32px;
+  border: none;
+  color: white;
+}
+
+
+.line {
+  height: 1px;
+  opacity: 0.5;
+  background: #000;
+}
+
+.opacity-06 {
+  opacity: 0.6;
+}
+
+.para-color {
+  color: rgba(0, 0, 0, 0.70);
+}
+
+
+
+.cardlocker {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.20);
+
+}
+
+.btnprice {
+  border-radius: 6.533px;
+  border: 0.311px solid #E8E8E8;
+  background: #28A745;
+  padding: 4px 10px;
+  line-height: 125%;
+}
+
+.boxs1 {
+  justify-content: center;
+  display: flex;
+  padding: 8px 32px;
+  border-radius: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #FFF;
+  margin: 0 4px;
+}
+
+.imgfootloker {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 27px 41px;
+
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.img-shoes {
+  width: 100%;
+  min-height: 236px;
+  border-radius: 17px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+
+.card-1 {
+  max-width: 312px !important;
+  min-height: 390px !important;
+  flex-shrink: 0;
+  border-radius: 17px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #FFF;
+}
+
+.clr-555 {
+  color: #555;
+}
+
+.clr-f00 {
+  color: #f00;
+}
+
+
+.clr-999 {
+  color: #999;
+}
+
+.nav-tabs {
+
+  border-bottom: none !important;
+}
+
+
+.nav-tabs .nav-link {
+
+  border: unset !important;
+
+}
+
+.nav-link.active {
+
+  background-color: transparent !important;
+}
+
+.nav-link {
+  color: #000 !important;
+  padding: 0 !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 36px;
+}
+
+.nav-link.active {
+  color: #f00 !important;
+  border: 2px orange !important;
+}
+
+.bg-footer {
+  background: #0D0D0D;
+}
+
+a {
+  color: unset !important;
+  text-decoration: none !important;
+}
+
+.footer-para-width {
+  max-width: 448px;
+}
+
+ul {
+  padding-left: 0px !important;
+}
+
+.f-end-line {
+  background: #171717;
+}
+
+.four-pics {
+  max-width: 137px;
+  min-height: 103px;
+}
+
+#qty_selector {
+  width: 95px;
+}
+
+#qty_display {
+  border-width: 0px;
+  border-color: white;
+  background-color: transparent;
+  width: 35%;
+  margin: 0px 10px;
+  padding-left: 5px
+}
+
+#qty_display:focus {
+  outline: none;
+}
+
+i:hover,
+a:hover {
+  background-color: transparent;
+}
+
+#qty_select {
+  border: solid #0d6efd;
+  border-width: 1px 1px;
+  border-radius: 10px;
+  border: 1px solid #E8E8E8 !important;
+  border-radius: 21px !important;
+}
+
+#qty_selector {
+  max-width: 108px !important;
+  min-height: 45px !important;
+}
+
+#qty_select:hover {
+  border-width: 2px 2px;
+  box-shadow: 0 0 10px 2px rgba(13, 110, 253, 0.2);
+}
+
+#qty_display {
+  border-width: 0px;
+  border-color: white;
+  background-color: transparent;
+  width: 35%;
+  margin: 0px 8px !important;
+  padding-left: 0 !important;
+}
+
+.slick-button {
+  padding: 15px 23px;
+  border-radius: 9.219px;
+  border: none;
+  background: #FFF;
+  box-shadow: 3px 5px 22px 0px rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.70);
+}
+
+.slick-button:hover {
+  background-color: #F40;
+  box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.12);
+  color: white;
+}
+
+.next-btn {
+  border-radius: 9px;
+  border: 1px solid #9C9C9C;
+  background: rgba(196, 196, 196, 0.00);
+  padding: 12px 18px;
+}
+
+.next-btn:hover {
+  background-color: #F40;
+  box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.12);
+  color: white;
+
+}
+
+.fa-center {
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  flex-wrap: inherit;
+}
+
+.fa {
+  font-family: 'Josefin Sans' !important;
+  font-weight: var(--fa-style, 900);
+}
+
+.nav-shadow{
+
+  border: 1px solid #DEE2E6;
+background: #FFF;
+box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.10);
+}
+.Nav-Bar{
+  position: absolute;
+  top: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  z-index: 1;
+  transition: all 500ms;
+}
+.show-nav{
+  left: 0%;
+}
+.menu-btn{
+  z-index: 10;
+}
+
+select {
+  display: block;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 1em;
+  outline: none;
+  border-radius: 21px;
+  border: 1px solid #e8e8e8;
+  padding-right: 60px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.fw-hover:hover{
+  font-weight: 600;
+}
+
+
+label[for="checkbox"] {
+  
+  height: 27px;
+  width: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 4;
+}
+
+label[for="checkbox"]>span {
+
+  height: 3px;
+  width: 33px;
+  border-radius: 40px;
+  background-color: #000;
+}
+
+ul{
+  margin: 0 !important;
+  
+}
+
+
+
+@media (min-width:576px) {
+  .boxs1 {
+    justify-content: center;
+    display: flex;
+    padding: 5px 25px;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #FFF;
+    margin: 0 4px;
+  }
+}
+
+@media (min-width:768px) {
+  .boxs1 {
+    justify-content: center;
+    display: flex;
+    padding: 8px 32px;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #FFF;
+    margin: 0 4px;
+  }
+}
+
+@media (min-width:992px) {
+  .pl-60 {
+    padding-left: 60px !important;
+  }
+
+  .nav-link {
+    color: #000 !important;
+    padding: 0 !important;
+    margin-right: 91px !important;
+
+  }
+
+  .boxs1 {
+    justify-content: center;
+    display: flex;
+    padding: 5px 21px;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #FFF;
+    margin: 0 4px;
+  }
+  .Nav-Bar{
+    height: 100%;
+    position: static;
+    width: auto;
+    background: inherit;
+    flex-direction: row; 
+  }
+
+}
+
+@media (min-width:1200px) {
+  .boxs1 {
+    justify-content: center;
+    display: flex;
+    padding: 7px 28px;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #FFF;
+
+  }
+
+}
