@@ -23,7 +23,7 @@
     --primary-color: #222;
     --secondary-color: #181818;
     --tertiary-color: #007bff;
-    --tertiary-color2s: #555;
+    --tertiary-color2s: #555 !important;
     --white-color: #FFF;
     --black-color: #000;
     --dark-color: #f00 ;

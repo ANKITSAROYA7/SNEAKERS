@@ -17,6 +17,8 @@
 }
 
 
+
+
 .line {
   height: 1px;
   opacity: 0.5;
@@ -37,6 +39,7 @@
   border-radius: 10px;
   background: #FFF;
   box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
 
 }
 
@@ -47,6 +50,7 @@
   padding: 4px 10px;
   line-height: 125%;
 }
+
 
 .boxs1 {
   justify-content: center;
@@ -59,8 +63,11 @@
 }
 
 .imgfootloker {
+  border-top-left-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.12);
   padding: 27px 41px;
+  border-top-right-radius: 10px;
+
 
 }
 
@@ -186,7 +193,10 @@ a:hover {
 
 #qty_selector {
   max-width: 108px !important;
-  min-height: 45px !important;
+  min-height: 41px !important;
+}
+.cursor{
+  cursor: pointer;
 }
 
 #qty_select:hover {
